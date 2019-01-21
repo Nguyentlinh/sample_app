@@ -1,0 +1,17 @@
+vi:
+  hello: "chao the gioi"
+  static_pages:
+    home: 
+      home: "nhà"
+      this: "đây là trang cho"
+      sample: "ứng dụng mẫu của ROR"
+      app: "ứng dụng mẫu"
+    help:
+      help: "giúp đỡ"
+      word4: "giúp cho ROR"
+      word5: "xin chào các bạn của tôi"
+    about:
+      about: "thuộc về"
+      word1: "tài liệu Ruby on Rails"
+      word2: "xin chào"
+      word3: "GG dịch"
