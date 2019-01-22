@@ -3,18 +3,29 @@ vi:
   static_pages:
     home: 
       home: "nhà"
-      this: "đây là trang cho"
-      sample: "ứng dụng mẫu của ROR"
-      app: "ứng dụng mẫu"
+      This_is: "Đây là trang chủ cho"
+      sample_application: "ứng dụng mẫu."
+      Welcome_to: "Chào mừng đến với ứng dụng mẫu"
+      sign_up: "Đăng ký ngay bây giờ"
     help:
-      help: "giúp đỡ"
-      word4: "giúp cho ROR"
-      word5: "xin chào các bạn của tôi"
+      help: "Giúp đỡ"
+      word4: "Sự giúp cho ROR"
+      word5: "cuốn sách cho ROR"
     about:
-      about: "thuộc về"
+      about: "Thuộc về"
       word1: "tài liệu Ruby on Rails"
-      word2: "xin chào"
       word3: "GG dịch"
-  layouts:    
+  layouts:
     application:
       title: "ứng dụng mẫu của Ruby on Rails"
+    footer:
+      the: "Đây là Ruby on Rails Tutorial"
+      by: "thực hiện bởi Michael Hartl"
+      about: "giới thiệu"
+      contact: "liên lạc"
+      new: "tin tức"
+    header:
+      sample_app: "ứng dụng mẫu"
+      home: "trang chủ"
+      help: "giúp đỡ"
+      log_in: "đăng nhập"

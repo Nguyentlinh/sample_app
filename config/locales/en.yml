@@ -3,18 +3,29 @@ en:
   static_pages:
     home:
       home: "home"
-      this: "This is the page for the"
-      sample: "Ruby on Rails Tutorial"
-      app: "Sample app"
+      This_is: "This is the home page for the "
+      sample_application: "sample application."
+      Welcome_to: "Welcome to the Sample App"
+      sign_up: "Sign up"
     help:
-      help: "help"
-      word4: The help of ROR
-      word5: Hello my friends
+      help: "Help"
+      word4: The help for ROR
+      word5: The book for ROR
     about:
-      about: "about"
+      about: "About"
       word1: The Ruby on Rails Tutorial
-      word2: Hello babay
       word3: GG translate
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    footer:
+      the: "The Ruby on Rails Tutorial"
+      by: "by Michael Hartl"
+      about: "about"
+      contact: "contact"
+      new: "new"
+    header:
+      sample_app: "SAMPLE APP"
+      home: "Home"
+      help: "Help"
+      log_in: "Login"

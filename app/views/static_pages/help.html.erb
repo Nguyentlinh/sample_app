@@ -1,8 +1,10 @@
-<% provide:title, t(".help") %>
-<h1><%= t ".help" %> </h1>
-<p>
-<%= link_to t(".word4"), "http://www.railstutorial.org/" %>
-<br>
-<%= link_to t(".word5"), "https://translate.google.com/?hl=vi" %>
-
-</p>
+<% provide :title, t(".help") %>
+<div class = "center jumbotron">
+  <h1><%= t ".help" %></h1>
+  <p>
+    <%= t ".content_html" %> <p>
+    <%= link_to t(".word4"), "http://www.railstutorial.org/help" %>
+    <p>
+    <%= link_to t(".word5"), "http://www.railstutorial.org/book" %>
+  </p>
+</div>
