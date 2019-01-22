@@ -15,3 +15,6 @@ vi:
       word1: "tài liệu Ruby on Rails"
       word2: "xin chào"
       word3: "GG dịch"
+  layouts:    
+    application:
+      title: "ứng dụng mẫu của Ruby on Rails"
