@@ -15,6 +15,10 @@ en:
       about: "About"
       word1: The Ruby on Rails Tutorial
       word3: GG translate
+    contact:
+      contact: "Contact"
+      content_html: "Content"
+      contact_page: "contact page"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -29,3 +33,10 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Login"
+      english: "English"
+      vietnam: "Vietnam"
+  users:
+    new:
+      sign_up: "sign up"
+      this_will: "A signup page for new users."
+
