@@ -10,11 +10,15 @@ vi:
     help:
       help: "Giúp đỡ"
       word4: "Sự giúp cho ROR"
-      word5: "cuốn sách cho ROR"
+      word5: "Cuốn sách cho ROR"
     about:
       about: "Thuộc về"
       word1: "tài liệu Ruby on Rails"
       word3: "GG dịch"
+    contact:
+      contact: "Liên hệ"
+      content_html: "Nội dung"
+      contact_page: "trang liên hệ"
   layouts:
     application:
       title: "ứng dụng mẫu của Ruby on Rails"
@@ -29,3 +33,9 @@ vi:
       home: "trang chủ"
       help: "giúp đỡ"
       log_in: "đăng nhập"
+      english: "Tiếng Anh"
+      vietnam: "Tiếng Việt"
+  users:
+    new:
+      sign_up: "Đăng ký"
+      this_will: "Đây sẽ là trang đăng ký cho người dùng mới"
