@@ -15,17 +15,38 @@ en:
       about: "About"
       word1: The Ruby on Rails Tutorial
       word3: GG translate
+    contact:
+      contact: "Contact"
+      content_html: "Content"
+      contact_page: "contact page"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
     footer:
       the: "The Ruby on Rails Tutorial"
       by: "by Michael Hartl"
-      about: "about"
-      contact: "contact"
-      new: "new"
+      about: "About"
+      contact: "Contact"
+      new: "New"
     header:
       sample_app: "SAMPLE APP"
       home: "Home"
       help: "Help"
       log_in: "Login"
+      english: "English"
+      vietnam: "Vietnam"
+  users:
+    new:
+      sign_up: "sign up"
+      label_name: "name"
+      label_email: "email"
+      label_password: "password"
+      confirmation: "confirmation"
+      button_login: "create my account"
+  shared:
+    error_messages:
+      the_form_contains: "The form contains"
+      error: "error"
+  welcome: "Welcome to the sample app"
+  fail: "fail"
+  no_found_user: "No found user"
