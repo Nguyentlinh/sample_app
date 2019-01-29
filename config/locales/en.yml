@@ -25,9 +25,9 @@ en:
     footer:
       the: "The Ruby on Rails Tutorial"
       by: "by Michael Hartl"
-      about: "about"
-      contact: "contact"
-      new: "new"
+      about: "About"
+      contact: "Contact"
+      new: "New"
     header:
       sample_app: "SAMPLE APP"
       home: "Home"
@@ -38,5 +38,15 @@ en:
   users:
     new:
       sign_up: "sign up"
-      this_will: "A signup page for new users."
-
+      label_name: "name"
+      label_email: "email"
+      label_password: "password"
+      confirmation: "confirmation"
+      button_login: "create my account"
+  shared:
+    error_messages:
+      the_form_contains: "The form contains"
+      error: "error"
+  welcome: "Welcome to the sample app"
+  fail: "fail"
+  no_found_user: "No found user"
