@@ -32,6 +32,11 @@ en:
       sample_app: "SAMPLE APP"
       home: "Home"
       help: "Help"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
       log_in: "Login"
       english: "English"
       vietnam: "Vietnam"
@@ -47,6 +52,15 @@ en:
     error_messages:
       the_form_contains: "The form contains"
       error: "error"
+  sessions:
+    new:
+      log_in: "Log in"
+      label_email: "Email"
+      label_password: "Password"
+      login: "Log in"
+      new_user: "New user"
+      sign_up_now: "Sign up now"
+  email_password: "Invalid email/password combination"
   welcome: "Welcome to the sample app"
   fail: "fail"
   no_found_user: "No found user"
