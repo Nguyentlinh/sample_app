@@ -7,6 +7,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
+      log_in @user
       flash[:success] = t "welcome"
       redirect_to @user
     else
@@ -18,9 +19,9 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
 
-    return if @user.present?
-    flash[:danger] = t "no_found _user"
-    redirect_to :signup_path
+    return if @user
+    flash[:danger] = t ".danger"
+    redirect_to signup_path
   end
 
   private
