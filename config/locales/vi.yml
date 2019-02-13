@@ -58,6 +58,7 @@ vi:
       label_email: "Địa chỉ email"
       label_password: "Mật khẩu"
       login: "Đăng nhập"
+      remember_me: "Lưu mật khẩu"
       new_user: "Người dùng mới"
       sign_up_now: "Đăng ký ngay"
   email_password: "Email hoặc mật khẩu không hợp lệ"
