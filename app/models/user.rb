@@ -5,7 +5,7 @@ class User < ApplicationRecord
   validates :name,  presence: true, length: {maximum: Settings.name_maximum}
   validates :email, presence: true, length: {maximum: Settings.email_maximum},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
-  validates :password, presence: true,
+  validates :password, presence: true, allow_nil: true,
     length: {minimum: Settings.password_minimum}
 
   before_save :downcase_email
@@ -13,23 +13,22 @@ class User < ApplicationRecord
 
   class << self
     def digest string
-      cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
+      cost = if ActiveModel::SecurePassword.min_cost
+               BCrypt::Engine::MIN_COST
+             else
+               BCrypt::Engine.cost
+             end
       BCrypt::Password.create string, cost: cost
     end
-  end
 
-  def User.new_token
-    SecureRandom.urlsafe_base64
+    def new_token
+      SecureRandom.urlsafe_base64
+    end
   end
 
   def remember
     self.remember_token = User.new_token
     update remember_digest: User.digest(remember_token)
-  end
-
-  def self.digest string
-    cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
-    BCrypt::Password.create(string, cost: cost)
   end
 
   def authenticated? remember_token
@@ -39,6 +38,10 @@ class User < ApplicationRecord
 
   def forget
     update remember_digest: nil
+  end
+
+  def current_user? user
+    self == user
   end
 
   private

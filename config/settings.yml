@@ -2,3 +2,5 @@ name_maximum: 50
 email_maximum: 255
 password_minimum: 6
 user_size: 80
+avata_size: 50
+user_per: 10
