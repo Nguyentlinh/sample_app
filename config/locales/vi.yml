@@ -3,6 +3,7 @@ vi:
   static_pages:
     home: 
       home: "nhà"
+      tutorial: "hướng dẫn"
       This_is: "Đây là trang chủ cho"
       sample_application: "ứng dụng mẫu."
       Welcome_to: "Chào mừng đến với ứng dụng mẫu"
@@ -48,6 +49,17 @@ vi:
       label_password: "Mật khẩu"
       confirmation: "Xác nhận"
       button_login: "Tạo tài khoản"
+    edit:
+      edit_user: "Chỉnh sửa người dùng"
+      update_profile: "Cập nhật hồ sơ của bạn"
+      save_changes: "Lưu thay đổi"
+      gravatar: "Thay đổi"
+    form:
+      name2: "Tên người dùng"
+      email2: "Địa chỉ email"
+      password2: "Mật khẩu"
+      confirmation2: "Xác nhận mật khẩu"
+  shared:
   shared:
     error_messages:
       the_form_contains: "Nội dung nhập có chứa"
